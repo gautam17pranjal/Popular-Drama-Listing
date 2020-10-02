@@ -9,3 +9,11 @@ This is a personal project, done for learning JS.
  
 
 I made the Python file, "parser.py", to parse the webpage but am not using it. [Just for fun!]
+##
+#### Note:
+- You might get error on inspecting the webpage in the Console Section like "Access to XMLHttpRequest at 'url' from origin 'null' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+
+To resolve this, just add a CORS extension from Chrome WebStore, switch it ON and you are good to go.
+
+- After cloning the Repos, open the "index.html" in the browser, and copy the url in the file "parse.js", in the variable base_url.
+##

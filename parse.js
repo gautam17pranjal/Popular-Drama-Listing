@@ -29,7 +29,6 @@ function collect_data(page){
         "headers": {
         },
     }; 
-    console.log(settings["url"]); 
     var box = [];
     $.ajax(settings).done(function (response) {
         var main = jQuery(response).find('.box');

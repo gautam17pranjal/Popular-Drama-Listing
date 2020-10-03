@@ -25,7 +25,7 @@ var box = [];
 
 function collect_data(page){
     var settings = {
-        "url": "https://mydramalist.com/shows/popular?page="+page,
+        "url": "https://mydramalist.com/shows/top?page="+page,
         "method": "GET",
         "timeout": 0,
         "headers": {
